@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Wall_scene_spout_v02.unity
+    guid: aa058ddc77f3f354d9103464ff59e2ea
   m_configObjects: {}
