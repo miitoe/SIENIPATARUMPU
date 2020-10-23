@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyG_press : MonoBehaviour
+public class Particle_keypress : MonoBehaviour
 {
     // Start is called before the first frame update
     // void Start()
