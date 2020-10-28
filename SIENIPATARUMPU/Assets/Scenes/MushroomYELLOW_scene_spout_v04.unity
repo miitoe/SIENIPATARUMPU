@@ -130,10 +130,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8735350}
-  - component: {fileID: 8735348}
   - component: {fileID: 8735347}
   - component: {fileID: 8735349}
   - component: {fileID: 8735346}
+  - component: {fileID: 8735348}
   m_Layer: 0
   m_Name: DOT03_controller
   m_TagString: Untagged
@@ -176,10 +176,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8735345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58d8376f5797ae04d9412a68d7bb60d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 94da68694b453ad4eab192279ac50172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theNPC: {fileID: 1153838626}
+  theNPC3: {fileID: 1153838626}
 --- !u!114 &8735349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20781,7 +20781,7 @@ Animator:
   m_GameObject: {fileID: 1153838626}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b5aa6d31007f43d41a6b98105b106fd5, type: 2}
+  m_Controller: {fileID: 9100000, guid: ae6226bcff8f9a248a6bf95ab5b4d6cf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

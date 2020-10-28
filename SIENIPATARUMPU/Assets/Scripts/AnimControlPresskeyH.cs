@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class AnimControlPresskeyH : MonoBehaviour
 {
-    public GameObject theNPC;
+    public GameObject theNPC3;
 
     void Update()
     {
         if (Input.GetButtonDown("HKey"))
         {
-            theNPC.GetComponent<Animator>().Play("YDOT03_press");
+            theNPC3.GetComponent<Animator>().Play("YDOT03_press");
         }
     }
 }
