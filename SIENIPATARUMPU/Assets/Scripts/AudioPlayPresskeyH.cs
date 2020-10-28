@@ -5,14 +5,14 @@ using UnityEngine;
 public class AudioPlayPresskeyH : MonoBehaviour
 {
 
-    public AudioSource cLong;
+    public AudioSource gLong;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
-            if (!cLong.isPlaying)
+            if (!gLong.isPlaying)
             {
-                cLong.Play();
+                gLong.Play();
 
             }
         }
