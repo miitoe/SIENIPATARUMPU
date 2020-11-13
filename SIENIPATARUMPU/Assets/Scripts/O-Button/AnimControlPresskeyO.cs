@@ -10,7 +10,11 @@ public class AnimControlPresskeyO : MonoBehaviour
     {
         if (Input.GetButtonDown("OKey"))
         {
-            ClickAnimation.GetComponent<Animator>().Play("YDOT02_press");
+            ClickAnimation.GetComponent<Animator>().Play("BDOT05_press");
+        }
+        if (Input.GetButtonUp("OKey"))
+        {
+            ClickAnimation.GetComponent<Animator>().Play("BDOT05_idle");
         }
     }
 }
