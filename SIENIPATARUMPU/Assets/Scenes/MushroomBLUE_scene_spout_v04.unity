@@ -17025,19 +17025,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1160798584498445243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160798584498445246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94da68694b453ad4eab192279ac50172, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theNPC3: {fileID: 1160798585500811245}
 --- !u!1 &1160798584498445246
 GameObject:
   m_ObjectHideFlags: 0
@@ -17047,9 +17034,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1160798584498445241}
-  - component: {fileID: 1160798584498445243}
   - component: {fileID: 1160798584498445247}
   - component: {fileID: 1160798584498445248}
+  - component: {fileID: 1160798584498445249}
   m_Layer: 0
   m_Name: DOT03_controller
   m_TagString: Untagged
@@ -17083,6 +17070,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sound: {fileID: 1160798584828091902}
+--- !u!114 &1160798584498445249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160798584498445246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8044298a08552b4ea8463affa4d3411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClickAnimation: {fileID: 1160798585500811245}
 --- !u!4 &1160798584586125128
 Transform:
   m_ObjectHideFlags: 0
@@ -41622,19 +41622,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5947458823526729428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5947458823526729431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c953e7d1b5414e41a240ed51e900fd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theNPC1: {fileID: 5947458823084668276}
 --- !u!1 &5947458823526729431
 GameObject:
   m_ObjectHideFlags: 0
@@ -41644,9 +41631,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5947458823526729424}
-  - component: {fileID: 5947458823526729428}
   - component: {fileID: 5947458823526729432}
   - component: {fileID: 5947458823526729433}
+  - component: {fileID: 5947458823526729434}
   m_Layer: 0
   m_Name: DOT01_controller
   m_TagString: Untagged
@@ -41680,6 +41667,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sound: {fileID: 5947458822379259703}
+--- !u!114 &5947458823526729434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947458823526729431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 721119a7675f3d14c835aed395bf15ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClickAnimation: {fileID: 5947458823084668276}
 --- !u!95 &7345349053651576168
 Animator:
   serializedVersion: 3
@@ -41917,9 +41917,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7345349054789383065}
-  - component: {fileID: 7345349054789383015}
   - component: {fileID: 7345349054789383016}
   - component: {fileID: 7345349054789383014}
+  - component: {fileID: 7345349054789383015}
   m_Layer: 0
   m_Name: DOT02_controller
   m_TagString: Untagged
@@ -41949,10 +41949,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7345349054789383013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58d8376f5797ae04d9412a68d7bb60d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e705e242d4bd2547aff7ac650f30ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theNPC: {fileID: 7345349053651576183}
+  ClickAnimation: {fileID: 7345349053651576183}
 --- !u!114 &7345349054789383016
 MonoBehaviour:
   m_ObjectHideFlags: 0
