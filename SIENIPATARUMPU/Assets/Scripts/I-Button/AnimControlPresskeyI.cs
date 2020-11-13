@@ -10,7 +10,12 @@ public class AnimControlPresskeyI : MonoBehaviour
     {
         if (Input.GetButtonDown("IKey"))
         {
-            ClickAnimation.GetComponent<Animator>().Play("YDOT01_press");
+            ClickAnimation.GetComponent<Animator>().Play("BDOT04_press");
+        }
+
+        if (Input.GetButtonUp("IKey"))
+        {
+            ClickAnimation.GetComponent<Animator>().Play("BDOT04_idle");
         }
     }
 }
