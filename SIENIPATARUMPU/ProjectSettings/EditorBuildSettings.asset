@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MushroomYELLOW_scene_spout_v04.unity
-    guid: 786577406a5e17e4cb14b4c07ce722ea
+    path: Assets/Scenes/MushroomRED_scene_spout_v04.unity
+    guid: 9268b14363c67e44cbbad6fc8a75fccb
   m_configObjects: {}
